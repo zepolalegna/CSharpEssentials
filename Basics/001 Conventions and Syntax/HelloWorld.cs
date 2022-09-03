@@ -10,3 +10,15 @@ public class HelloWorld
         Console.WriteLine("HW");
     }    
 }
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("This is confusing");    
+    }
+  }
+}
