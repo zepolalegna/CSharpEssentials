@@ -2,24 +2,24 @@ using System;
 					
 public class Program
 {
-	public Weapon miniGun;
+	public Weapon ak47;
 	public PowerUp weaponPowerUp;
 	
 	public void Main()
 	{
-		miniGun = new Weapon();
+		ak47 = new Weapon();
 		weaponPowerUp = new PowerUp();
 		
-		miniGun.ammoCount++;
-		miniGun.firePower += weaponPowerUp.powerLevel;
-		Console.WriteLine(miniGun.weaponName + " has an ammo count of " + miniGun.ammoCount + ".");
-		Console.WriteLine("The fire power of is now " + miniGun.firePower + ", it has increased.");
+		ak47.ammoCount++;
+		ak47.firePower += weaponPowerUp.powerLevel;
+		Console.WriteLine(ak47.weaponName + " has an ammo count of " + ak47.ammoCount + ".");
+		Console.WriteLine("The fire power of is now " + ak47.firePower + ", it has increased.");
 	}
 }
 
 public class Weapon { 
 	public int ammoCount = 10;
-	public string weaponName = "Mini Gun";
+	public string weaponName = "ak47";
 	public float firePower = 11.5f;
 }
 
