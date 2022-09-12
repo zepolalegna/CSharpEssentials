@@ -8,14 +8,14 @@ public class Program
 	{
 		myOperator = new Operations();
 		
-		Console.WriteLine("Welcome");
-		myOperator.DoMath(10, 4);
-		myOperator.DoMath(20, 7);
-		myOperator.DoMath(30, 15);
-		myOperator.Compare(4,3);
-		myOperator.Compare(3,4);
-		myOperator.CheckPassword("SevenOF9");
-		myOperator.CheckPassword("OU812");
+		Console.WriteLine("I am still confused :/");
+		myOperator.DoMath(12, 8);
+		myOperator.DoMath(55, 7);
+		myOperator.DoMath(83, 13);
+		myOperator.Compare(66,35);
+		myOperator.Compare(23,64);
+		myOperator.CheckPassword("OhWell");
+		myOperator.CheckPassword("Thisisweird444");
 	}
 }
 
@@ -34,7 +34,7 @@ public class Operations {
 	}
 	
 	public void CheckPassword (string password) {
-		if(password == "OU812") {
+		if(password == "Thisisweird444") {
 			Console.WriteLine("Correct Password");
 		} else {
 			Console.WriteLine("Incorrect Password");	
