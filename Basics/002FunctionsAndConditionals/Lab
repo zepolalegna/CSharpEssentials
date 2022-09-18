@@ -1,0 +1,27 @@
+1b Challenge
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name;
+		int age;
+		
+	    name = "Angela";
+		age = 19;
+		
+		if (age < 30)
+		{
+			Console.WriteLine("You are young, {0}", name);
+		}
+		else if (age > 10 && age < 100)
+		{
+			Console.WriteLine("You are good in standing, {0}", name);
+		}
+		else
+		{
+			Console.WriteLine("Your old, {0}", name);
+		}
+	}
+}
